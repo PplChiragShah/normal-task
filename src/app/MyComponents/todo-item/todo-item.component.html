@@ -1,0 +1,5 @@
+<li>
+    <input type="checkbox" (change)="onChange(todo)" [checked]="todo.isCompleted">
+    <label>{{todo.todo}} </label>
+    <button (click)="onClick(todo)"><i class="fa fa-trash-o" style="color: red;"></i></button>
+</li>

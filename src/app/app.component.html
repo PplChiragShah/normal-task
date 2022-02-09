@@ -1,0 +1,21 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="todo">
+
+    <h1>Todo List</h1>
+    <router-outlet></router-outlet>
+
+    <footer>
+        <div class="about">
+            <a [routerLink]="['']">
+                <h3>Home page </h3>
+            </a>
+            <a [routerLink]="['about']">
+                <h3>About us </h3>
+            </a>
+        </div>
+        <h3>Copyright </h3>
+    </footer>
+
+</div>
